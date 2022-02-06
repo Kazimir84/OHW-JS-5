@@ -82,7 +82,6 @@ let getArrObj = (arrObj) => {
     document.body.append(div);
     for (let arrObjKey in arrObj) {
         let p = document.createElement('P');
-        console.log('ssss', arrObj[arrObjKey].id);
         p.innerHTML = `Id - ${arrObj[arrObjKey].id}, Name - ${arrObj[arrObjKey].name}, age - ${arrObj[arrObjKey].age}`;
         div.append(p);
     };
